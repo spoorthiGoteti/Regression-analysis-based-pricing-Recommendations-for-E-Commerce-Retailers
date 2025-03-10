@@ -1,0 +1,25 @@
+{
+    "flipkart": {
+        "url": "https://www.flipkart.com/search?q={query}",
+        "title_xpath": "//div[contains(@class, 'KzDlHZ')]",
+        "price_xpath": "//div[contains(@class, 'Nx9bqj')]",
+        "rating_xpath": "//div[contains(@class, 'XQDdHH')]",
+        "ratings_count_xpath": "//span[contains(@class, 'Wphh3N')]/span/span[1]"
+    },
+    "croma": {
+        "url": "https://www.croma.com/searchB?q={query}%3Arelevance",
+        "title_xpath": "//h3[contains(@class, 'product-title')]",
+        "price_xpath": "//span[contains(@class, 'amount')]",
+        "product_link_xpath": "//div[contains(@class, 'product')]//a",
+        "rating_xpath": "//span[contains(@style, 'color')]",
+        "ratings_count_xpath": "//a[contains(@class, 'pr-review')]"
+    },
+    "reliance": {
+        "url": "https://www.reliancedigital.in/products?q={query}&page_no=1&page_size=12&page_type=number",
+        "title_xpath": "//div[contains(@class, 'product-card-title')]",
+        "price_xpath": "//div[contains(@class, 'price-container')]//div[contains(@class, 'price')]",
+        "product_link_xpath": "//div[contains(@class, 'grid')]//a",
+        "rating_xpath": "//span[contains(@class, 'rd-feedback-service-average-rating-total-count')]",
+        "ratings_count_xpath": "//span[contains(@class, 'rd-feedback-service-jds-desk-body-s')]"
+    }
+}

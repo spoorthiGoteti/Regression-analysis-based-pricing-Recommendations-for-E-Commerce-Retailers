@@ -1,0 +1,318 @@
+2025-02-21 20:47:30,180 - INFO - ====== WebDriver manager ======
+2025-02-21 20:47:31,481 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:47:31,631 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:47:31,747 - INFO - There is no [win64] chromedriver "133.0.6943.126" for browser google-chrome "133.0.6943" in cache
+2025-02-21 20:47:31,747 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:47:32,062 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-21 20:47:32,062 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-21 20:47:32,062 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-21 20:47:32,213 - INFO - Driver downloading response is 200
+2025-02-21 20:47:34,491 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:47:35,002 - INFO - Driver has been saved in cache [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126]
+2025-02-21 20:53:48,336 - INFO - ====== WebDriver manager ======
+2025-02-21 20:53:49,769 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:53:49,901 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 20:53:50,035 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:10:34,008 - INFO - ====== WebDriver manager ======
+2025-02-21 21:10:35,408 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:10:35,558 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:10:35,716 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:13:14,569 - INFO - ====== WebDriver manager ======
+2025-02-21 21:13:16,019 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:13:16,948 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:13:17,316 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:19:02,055 - INFO - ====== WebDriver manager ======
+2025-02-21 21:19:03,601 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:19:03,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:19:03,897 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:19:58,615 - INFO - ====== WebDriver manager ======
+2025-02-21 21:20:00,200 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:20:00,430 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:20:00,558 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:25:12,343 - INFO - ====== WebDriver manager ======
+2025-02-21 21:25:13,891 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:25:14,122 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:25:14,353 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:46:11,129 - INFO - ====== WebDriver manager ======
+2025-02-21 21:46:12,694 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:46:12,996 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:46:13,120 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:49:15,075 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10333.49280478071, 'MSE': 181563541.71219957, 'RMSE': np.float64(13474.551633067409), 'R2 Score': -14.484495485574243}
+2025-02-21 21:49:15,123 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 21:49:17,251 - INFO - Model: Random Forest, Best Parameters: {'n_estimators': 100}, Scores: {'MAE': 10987.053558062302, 'MSE': 195448290.6111352, 'RMSE': np.float64(13980.282207850285), 'R2 Score': -15.668644735012766}
+2025-02-21 21:49:18,288 - INFO - Model: Gradient Boosting, Best Parameters: {'n_estimators': 50}, Scores: {'MAE': 11261.069949581826, 'MSE': 206492606.4232707, 'RMSE': np.float64(14369.850605461099), 'R2 Score': -16.61055001358102}
+2025-02-21 21:49:18,418 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 10, 'epsilon': 1}, Scores: {'MAE': 3272.9112879958143, 'MSE': 14252179.166174917, 'RMSE': np.float64(3775.205844212328), 'R2 Score': -0.21548523385850205}
+2025-02-21 21:56:22,036 - INFO - ====== WebDriver manager ======
+2025-02-21 21:56:23,602 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:56:23,850 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 21:56:24,005 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 21:57:43,655 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D121CEC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5638a2fb849871ffafe2a1f86c254cad/element
+2025-02-21 21:57:47,714 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D7FB70DD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5638a2fb849871ffafe2a1f86c254cad/element
+2025-02-21 21:57:51,796 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D4E77FC90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5638a2fb849871ffafe2a1f86c254cad/element
+2025-02-21 22:03:41,328 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10527.277852395922, 'MSE': 176931382.10480902, 'RMSE': np.float64(13301.555627249356), 'R2 Score': -14.089445610182295}
+2025-02-21 22:03:41,369 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 5}, Scores: {'MAE': 10527.277852395853, 'MSE': 176931382.10480866, 'RMSE': np.float64(13301.555627249343), 'R2 Score': -14.089445610182265}
+2025-02-21 22:03:44,256 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 11001.281561504611, 'MSE': 191945249.3539183, 'RMSE': np.float64(13854.43067592163), 'R2 Score': -15.369890778014252}
+2025-02-21 22:03:45,605 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 6654.608702464499, 'MSE': 63698799.92148974, 'RMSE': np.float64(7981.15279401978), 'R2 Score': -4.4324991158427105}
+2025-02-21 22:03:45,652 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 1, 'epsilon': 0.1}, Scores: {'MAE': 13970.460402307794, 'MSE': 297665829.7571855, 'RMSE': np.float64(17252.99480545872), 'R2 Score': -24.386182455015998}
+2025-02-21 22:17:01,679 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10527.277852396168, 'MSE': 176931382.10481584, 'RMSE': np.float64(13301.555627249612), 'R2 Score': -14.089445610182878}
+2025-02-21 22:17:01,721 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3}, Scores: {'MAE': 10527.277852395853, 'MSE': 176931382.10480866, 'RMSE': np.float64(13301.555627249343), 'R2 Score': -14.089445610182265}
+2025-02-21 22:17:04,990 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 200}, Scores: {'MAE': 10409.685754680066, 'MSE': 170176710.68532518, 'RMSE': np.float64(13045.1795957482), 'R2 Score': -13.51337908209415}
+2025-02-21 22:17:06,338 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 6654.608702464499, 'MSE': 63698799.92148974, 'RMSE': np.float64(7981.15279401978), 'R2 Score': -4.4324991158427105}
+2025-02-21 22:17:07,525 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 6449.320312500036, 'MSE': 59609128.19171205, 'RMSE': np.float64(7720.694799803451), 'R2 Score': -4.083714867419077}
+2025-02-21 22:17:07,597 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 10, 'epsilon': 0.1}, Scores: {'MAE': 13971.858827305288, 'MSE': 297723646.12157637, 'RMSE': np.float64(17254.670269859587), 'R2 Score': -24.39111327551531}
+2025-02-21 22:21:54,065 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10527.277852396168, 'MSE': 176931382.10481584, 'RMSE': np.float64(13301.555627249612), 'R2 Score': -14.089445610182878}
+2025-02-21 22:21:54,065 - INFO - Model: Polynomial Regression, Best Parameters: N/A, Scores: {'MAE': 10527.277852396224, 'MSE': 176931382.10479876, 'RMSE': np.float64(13301.55562724897), 'R2 Score': -14.089445610181421}
+2025-02-21 22:21:54,096 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3}, Scores: {'MAE': 10527.277852395853, 'MSE': 176931382.10480866, 'RMSE': np.float64(13301.555627249343), 'R2 Score': -14.089445610182265}
+2025-02-21 22:21:54,710 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 11399.523020902583, 'MSE': 211735425.0560329, 'RMSE': np.float64(14551.131401235882), 'R2 Score': -17.05767943551829}
+2025-02-21 22:21:55,039 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.1, 'n_estimators': 50}, Scores: {'MAE': 10492.615125120401, 'MSE': 175581486.89367822, 'RMSE': np.float64(13250.716467183132), 'R2 Score': -13.974320921020384}
+2025-02-21 22:21:55,336 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.1, 'n_estimators': 50}, Scores: {'MAE': 10458.190104166702, 'MSE': 174243061.46047068, 'RMSE': np.float64(13200.115963902388), 'R2 Score': -13.860174422318947}
+2025-02-21 22:21:55,367 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 1, 'epsilon': 0.1}, Scores: {'MAE': 13971.858827305288, 'MSE': 297723646.12157637, 'RMSE': np.float64(17254.670269859587), 'R2 Score': -24.39111327551531}
+2025-02-21 22:24:29,562 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10527.27785239601, 'MSE': 176931382.10481226, 'RMSE': np.float64(13301.555627249478), 'R2 Score': -14.089445610182572}
+2025-02-21 22:24:29,597 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 5}, Scores: {'MAE': 10527.2778523959, 'MSE': 176931382.10480893, 'RMSE': np.float64(13301.555627249352), 'R2 Score': -14.089445610182288}
+2025-02-21 22:24:32,575 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 10, 'n_estimators': 100}, Scores: {'MAE': 10371.531600886918, 'MSE': 172128687.03720954, 'RMSE': np.float64(13119.78227857496), 'R2 Score': -13.679851760053978}
+2025-02-21 22:24:33,954 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 6654.608702464499, 'MSE': 63698799.92148974, 'RMSE': np.float64(7981.15279401978), 'R2 Score': -4.4324991158427105}
+2025-02-21 22:24:34,001 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 10, 'epsilon': 0.1}, Scores: {'MAE': 13971.858827305288, 'MSE': 297723646.12157637, 'RMSE': np.float64(17254.670269859587), 'R2 Score': -24.39111327551531}
+2025-02-21 22:31:57,985 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952380952, 'MSE': 207931706.16326547, 'RMSE': np.float64(14419.837244687107), 'R2 Score': -16.73328243671563}
+2025-02-21 22:31:58,012 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 22:31:59,228 - INFO - Model: Random Forest, Best Parameters: {'n_estimators': 200}, Scores: {'MAE': 10979.624558601112, 'MSE': 195426515.57982063, 'RMSE': np.float64(13979.503409628707), 'R2 Score': -15.666787669596939}
+2025-02-21 22:31:59,758 - INFO - Model: Gradient Boosting, Best Parameters: {'n_estimators': 50}, Scores: {'MAE': 11261.069949581826, 'MSE': 206492606.4232707, 'RMSE': np.float64(14369.850605461099), 'R2 Score': -16.61055001358102}
+2025-02-21 22:31:59,808 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 10, 'epsilon': 1}, Scores: {'MAE': 3275.901068460633, 'MSE': 14256961.592200568, 'RMSE': np.float64(3775.8391904582704), 'R2 Score': -0.21589309908026366}
+2025-02-21 22:35:31,037 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.11955240998989947, 'MSE': 0.022405087245964805, 'RMSE': np.float64(0.14968328980205106), 'R2 Score': -11.289048727574382}
+2025-02-21 22:35:31,125 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, Scores: {'MAE': 0.11955240998989887, 'MSE': 0.022405087245964767, 'RMSE': np.float64(0.14968328980205095), 'R2 Score': -11.289048727574363}
+2025-02-21 22:35:33,600 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 0.12162431138408625, 'MSE': 0.023826078782094928, 'RMSE': np.float64(0.1543569848827546), 'R2 Score': -12.068453602782753}
+2025-02-21 22:35:34,753 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.079371607421819, 'MSE': 0.008995294112469422, 'RMSE': np.float64(0.09484352435706626), 'R2 Score': -3.9338619597167055}
+2025-02-21 22:35:35,431 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.07715764320332023, 'MSE': 0.008489988367440901, 'RMSE': np.float64(0.09214113287474222), 'R2 Score': -3.6567049527027233}
+2025-02-21 22:35:35,499 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 0.1, 'epsilon': 0.01}, Scores: {'MAE': 0.06996527036962104, 'MSE': 0.00833398881688043, 'RMSE': np.float64(0.09129068307817852), 'R2 Score': -3.5711401853232694}
+2025-02-21 22:37:54,336 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.11955240998990035, 'MSE': 0.022405087245965172, 'RMSE': np.float64(0.14968328980205228), 'R2 Score': -11.289048727574585}
+2025-02-21 22:37:54,484 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 0.11955240998989858, 'MSE': 0.022405087245964753, 'RMSE': np.float64(0.1496832898020509), 'R2 Score': -11.289048727574354}
+2025-02-21 22:37:58,874 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 10, 'n_estimators': 50}, Scores: {'MAE': 0.12219759594654711, 'MSE': 0.02344955916803906, 'RMSE': np.float64(0.15313248893699555), 'R2 Score': -11.86193497452553}
+2025-02-21 22:38:00,934 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.079371607421819, 'MSE': 0.008995294112469422, 'RMSE': np.float64(0.09484352435706626), 'R2 Score': -3.9338619597167055}
+2025-02-21 22:38:02,095 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.07715764320332023, 'MSE': 0.008489988367440901, 'RMSE': np.float64(0.09214113287474222), 'R2 Score': -3.6567049527027233}
+2025-02-21 22:38:02,178 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 10, 'epsilon': 0.1}, Scores: {'MAE': 0.15585796527166185, 'MSE': 0.036096431263352595, 'RMSE': np.float64(0.18999060835565687), 'R2 Score': -18.79866437551011}
+2025-02-21 22:39:08,633 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952380954, 'MSE': 207931706.16326547, 'RMSE': np.float64(14419.837244687107), 'R2 Score': -16.73328243671563}
+2025-02-21 22:39:08,773 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 22:39:13,126 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 15, 'n_estimators': 50}, Scores: {'MAE': 10763.85728354977, 'MSE': 188175312.9520848, 'RMSE': np.float64(13717.700716668403), 'R2 Score': -15.04837489082366}
+2025-02-21 22:39:15,156 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7267.583070634374, 'MSE': 81048854.17967694, 'RMSE': np.float64(9002.713711969127), 'R2 Score': -5.912184047640479}
+2025-02-21 22:39:16,486 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7084.6953125, 'MSE': 76083259.82092285, 'RMSE': np.float64(8722.57185816906), 'R2 Score': -5.48869746709558}
+2025-02-21 22:39:16,580 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 3106.9301079299985, 'MSE': 12822683.10009258, 'RMSE': np.float64(3580.8774204226233), 'R2 Score': -0.09357185205751906}
+2025-02-21 22:48:24,382 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952380954, 'MSE': 207931706.16326547, 'RMSE': np.float64(14419.837244687107), 'R2 Score': -16.73328243671563}
+2025-02-21 22:48:24,534 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 22:50:25,598 - INFO - Model: Random Forest (Grid Search), Best Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 100}, Scores: {'MAE': 8207.14834717026, 'MSE': 100779791.41735636, 'RMSE': np.float64(10038.913856456602), 'R2 Score': -7.594920602026976}
+2025-02-21 22:50:32,223 - INFO - Model: Random Forest (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 8600.663140427123, 'MSE': 108011832.51781867, 'RMSE': np.float64(10392.874122100136), 'R2 Score': -8.211699205900574}
+2025-02-21 22:50:34,849 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7267.583070634374, 'MSE': 81048854.17967694, 'RMSE': np.float64(9002.713711969127), 'R2 Score': -5.912184047640479}
+2025-02-21 22:50:36,902 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7084.6953125, 'MSE': 76083259.82092285, 'RMSE': np.float64(8722.57185816906), 'R2 Score': -5.48869746709558}
+2025-02-21 22:50:37,017 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 3106.9301079299985, 'MSE': 12822683.10009258, 'RMSE': np.float64(3580.8774204226233), 'R2 Score': -0.09357185205751906}
+2025-02-21 22:54:18,366 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952380954, 'MSE': 207931706.16326547, 'RMSE': np.float64(14419.837244687107), 'R2 Score': -16.73328243671563}
+2025-02-21 22:54:18,513 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 22:54:22,207 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 'scale'}, Scores: {'MAE': 2399.317206316637, 'MSE': 8695522.395523231, 'RMSE': np.float64(2948.817118019229), 'R2 Score': 0.2584096123679982}
+2025-02-21 22:54:22,339 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 2399.317206316637, 'MSE': 8695522.395523231, 'RMSE': np.float64(2948.817118019229), 'R2 Score': 0.2584096123679982}
+2025-02-21 22:54:24,100 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7267.583070634374, 'MSE': 81048854.17967694, 'RMSE': np.float64(9002.713711969127), 'R2 Score': -5.912184047640479}
+2025-02-21 22:54:25,546 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7084.6953125, 'MSE': 76083259.82092285, 'RMSE': np.float64(8722.57185816906), 'R2 Score': -5.48869746709558}
+2025-02-21 22:54:25,656 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 3106.9301079299985, 'MSE': 12822683.10009258, 'RMSE': np.float64(3580.8774204226233), 'R2 Score': -0.09357185205751906}
+2025-02-21 22:58:21,187 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952380954, 'MSE': 207931706.16326547, 'RMSE': np.float64(14419.837244687107), 'R2 Score': -16.73328243671563}
+2025-02-21 22:58:21,342 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 22:58:25,132 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 'scale'}, Scores: {'MAE': 2399.317206316637, 'MSE': 8695522.395523231, 'RMSE': np.float64(2948.817118019229), 'R2 Score': 0.2584096123679982}
+2025-02-21 22:58:25,259 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 2399.317206316637, 'MSE': 8695522.395523231, 'RMSE': np.float64(2948.817118019229), 'R2 Score': 0.2584096123679982}
+2025-02-21 22:58:27,114 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7267.583070634374, 'MSE': 81048854.17967694, 'RMSE': np.float64(9002.713711969127), 'R2 Score': -5.912184047640479}
+2025-02-21 22:58:28,517 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7084.6953125, 'MSE': 76083259.82092285, 'RMSE': np.float64(8722.57185816906), 'R2 Score': -5.48869746709558}
+2025-02-21 22:58:28,642 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 3106.9301079299985, 'MSE': 12822683.10009258, 'RMSE': np.float64(3580.8774204226233), 'R2 Score': -0.09357185205751906}
+2025-02-21 23:09:22,117 - INFO - ====== WebDriver manager ======
+2025-02-21 23:09:23,659 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:09:28,189 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:09:29,529 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 23:15:06,240 - INFO - ====== WebDriver manager ======
+2025-02-21 23:15:07,723 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:15:08,391 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:15:08,649 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 23:21:42,941 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11295.380952384656, 'MSE': 207931706.16345215, 'RMSE': np.float64(14419.837244693581), 'R2 Score': -16.73328243673155}
+2025-02-21 23:21:43,085 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 11295.380952380949, 'MSE': 207931706.16326514, 'RMSE': np.float64(14419.837244687096), 'R2 Score': -16.7332824367156}
+2025-02-21 23:21:46,838 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 1}, Scores: {'MAE': 1885.7348962646527, 'MSE': 6408592.678201267, 'RMSE': np.float64(2531.5198356325923), 'R2 Score': 0.4534485092178394}
+2025-02-21 23:21:46,980 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 1955.1646685711119, 'MSE': 6609431.312145195, 'RMSE': np.float64(2570.8814270878374), 'R2 Score': 0.4363201535396758}
+2025-02-21 23:21:48,749 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7267.583070634374, 'MSE': 81048854.17967694, 'RMSE': np.float64(9002.713711969127), 'R2 Score': -5.912184047640479}
+2025-02-21 23:21:50,091 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7084.6953125, 'MSE': 76083259.82092285, 'RMSE': np.float64(8722.57185816906), 'R2 Score': -5.48869746709558}
+2025-02-21 23:21:50,185 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 3018.0996003808905, 'MSE': 12412653.045571348, 'RMSE': np.float64(3523.159525989612), 'R2 Score': -0.058602780247673625}
+2025-02-21 23:22:35,088 - INFO - ====== WebDriver manager ======
+2025-02-21 23:22:36,691 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:22:36,851 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:22:36,978 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 23:25:52,786 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-21 23:25:53,131 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-21 23:25:57,516 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-21 23:25:57,818 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-21 23:26:01,958 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-21 23:26:07,828 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-21 23:26:07,938 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-21 23:30:13,648 - INFO - ====== WebDriver manager ======
+2025-02-21 23:30:15,253 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:30:15,736 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:30:15,858 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 23:33:23,362 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 9278.074074073707, 'MSE': 140101148.35802215, 'RMSE': np.float64(11836.43309270247), 'R2 Score': 0.5836573270330128}
+2025-02-21 23:33:23,776 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 9278.074074074073, 'MSE': 140101148.3580247, 'RMSE': np.float64(11836.433092702577), 'R2 Score': 0.5836573270330053}
+2025-02-21 23:33:27,697 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 13098.358592710509, 'MSE': 411389084.79457587, 'RMSE': np.float64(20282.72873147437), 'R2 Score': -0.2225369541948432}
+2025-02-21 23:33:27,889 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 13098.327700692344, 'MSE': 411386624.3205753, 'RMSE': np.float64(20282.66807697092), 'R2 Score': -0.22252964233241967}
+2025-02-21 23:33:32,157 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 100}, Scores: {'MAE': 12048.144132845491, 'MSE': 173952549.5719559, 'RMSE': np.float64(13189.107231801396), 'R2 Score': 0.48306012972046075}
+2025-02-21 23:33:37,940 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 100}, Scores: {'MAE': 12307.697916666666, 'MSE': 179581401.8980306, 'RMSE': np.float64(13400.798554490348), 'R2 Score': 0.46633270492315926}
+2025-02-21 23:33:38,060 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 0.01}, Scores: {'MAE': 13940.648308082295, 'MSE': 416708371.6022523, 'RMSE': np.float64(20413.436055751426), 'R2 Score': -0.2383444341030494}
+2025-02-21 23:45:24,937 - INFO - ====== WebDriver manager ======
+2025-02-21 23:45:26,521 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:45:26,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:45:26,847 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 23:54:03,510 - INFO - ====== WebDriver manager ======
+2025-02-21 23:54:04,925 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:54:05,096 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 23:54:05,323 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-22 00:01:45,761 - INFO - ====== WebDriver manager ======
+2025-02-22 00:01:47,285 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:01:47,467 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:01:48,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:01:48,733 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-22 00:01:48,749 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-22 00:01:48,749 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-22 00:01:49,013 - INFO - Driver downloading response is 200
+2025-02-22 00:01:59,127 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:01:59,655 - INFO - Driver has been saved in cache [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126]
+2025-02-22 00:06:29,779 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 00:06:30,186 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 00:06:34,334 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 00:06:34,630 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 00:06:38,884 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 00:06:44,842 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 00:06:44,966 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 00:10:38,260 - INFO - ====== WebDriver manager ======
+2025-02-22 00:10:39,701 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:10:41,392 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 00:10:41,614 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-22 00:14:35,422 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 00:14:35,773 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 00:14:39,397 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 00:14:39,669 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 00:14:43,213 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 00:14:48,992 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 00:14:49,098 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 00:16:08,503 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 00:16:08,874 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 00:16:09,795 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 00:16:10,028 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 00:16:14,353 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 00:16:20,135 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 00:16:20,246 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 00:16:54,087 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 00:16:54,523 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 00:16:55,489 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 00:16:55,781 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 00:16:59,749 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 00:17:05,670 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 00:17:05,784 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 00:19:24,746 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 00:19:25,172 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 00:19:26,118 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 00:19:26,333 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 00:19:29,946 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 00:19:35,651 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 00:19:35,776 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 00:19:43,862 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 7750.939393939397, 'MSE': 164541786.01363668, 'RMSE': np.float64(12827.384223357336), 'R2 Score': 0.5110263705432583}
+2025-02-22 07:30:43,902 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7600.333333334696, 'MSE': 169555800.33336273, 'RMSE': np.float64(13021.359388841194), 'R2 Score': 0.4961260778002262}
+2025-02-22 07:30:44,371 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 7600.333333333333, 'MSE': 169555800.33333334, 'RMSE': np.float64(13021.359388840066), 'R2 Score': 0.4961260778003136}
+2025-02-22 07:30:51,232 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 12756.574584893977, 'MSE': 409637863.6615216, 'RMSE': np.float64(20239.51243635878), 'R2 Score': -0.21733279922511461}
+2025-02-22 07:30:51,597 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 12756.525856551321, 'MSE': 409635263.0068233, 'RMSE': np.float64(20239.448189286766), 'R2 Score': -0.21732507078361896}
+2025-02-22 07:30:57,133 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13193.958941363648, 'MSE': 193084617.646863, 'RMSE': np.float64(13895.489111465742), 'R2 Score': 0.4262048044426284}
+2025-02-22 07:31:04,861 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 13461.069010416666, 'MSE': 201140900.73705038, 'RMSE': np.float64(14182.415194072213), 'R2 Score': 0.4022637127723738}
+2025-02-22 07:31:05,138 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 13865.982550567409, 'MSE': 416044373.3571405, 'RMSE': np.float64(20397.165816778088), 'R2 Score': -0.23637121113196558}
+2025-02-22 07:31:16,815 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 100}, Scores: {'MAE': 8053.2058571058515, 'MSE': 154395898.61643293, 'RMSE': np.float64(12425.614617250647), 'R2 Score': 0.5411772003407358}
+2025-02-22 07:35:39,299 - INFO - ====== WebDriver manager ======
+2025-02-22 07:35:41,373 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 07:35:41,534 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 07:35:41,713 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-22 09:02:27,594 - INFO - ====== WebDriver manager ======
+2025-02-22 09:02:29,034 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 09:02:29,201 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 09:02:29,398 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-22 10:53:54,623 - INFO - ====== WebDriver manager ======
+2025-02-22 10:53:57,600 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 10:53:57,868 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-22 10:53:58,061 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-22 10:56:46,503 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 9071.428571452328, 'MSE': 288164965.9870227, 'RMSE': np.float64(16975.422409678726), 'R2 Score': 0.3901987552590631}
+2025-02-22 10:56:47,058 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}, Scores: {'MAE': 9071.428571428572, 'MSE': 288164965.9863946, 'RMSE': np.float64(16975.422409660227), 'R2 Score': 0.3901987552603924}
+2025-02-22 10:57:23,155 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 15723.565220473685, 'MSE': 555100800.6334484, 'RMSE': np.float64(23560.577255947028), 'R2 Score': -0.17467839306396327}
+2025-02-22 10:57:23,741 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 15723.565220473685, 'MSE': 555100800.6334484, 'RMSE': np.float64(23560.577255947028), 'R2 Score': -0.17467839306396327}
+2025-02-22 10:57:34,630 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 14939.702875774647, 'MSE': 236658434.94531322, 'RMSE': np.float64(15383.706801200848), 'R2 Score': 0.49919447107739967}
+2025-02-22 10:57:45,832 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 15387.739583333334, 'MSE': 248938029.99576822, 'RMSE': np.float64(15777.770121147292), 'R2 Score': 0.4732089654451177}
+2025-02-22 10:57:46,002 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 17278.04637742807, 'MSE': 616690351.662952, 'RMSE': np.float64(24833.250928200116), 'R2 Score': -0.30501132493923544}
+2025-02-22 10:57:54,582 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 15, 'n_estimators': 100}, Scores: {'MAE': 9224.013167388148, 'MSE': 290715572.10837895, 'RMSE': np.float64(17050.38334197736), 'R2 Score': 0.38480128168929906}
+2025-03-04 21:55:55,751 - INFO - ====== WebDriver manager ======
+2025-03-04 21:55:59,092 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 21:55:59,484 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 21:55:59,818 - INFO - There is no [win64] chromedriver "133.0.6943.141" for browser google-chrome "133.0.6943" in cache
+2025-03-04 21:55:59,819 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 21:56:00,481 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-04 21:56:00,481 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-04 21:56:00,481 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-04 21:56:00,717 - INFO - Driver downloading response is 200
+2025-03-04 21:56:04,087 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 21:56:05,885 - INFO - Driver has been saved in cache [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-04 22:00:23,276 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 11903.623759394506, 'MSE': 176088653.90015817, 'RMSE': np.float64(13269.840010345195), 'R2 Score': 0.07970253396834293}
+2025-03-04 22:00:23,810 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 2}, Scores: {'MAE': 12951.513227513227, 'MSE': 328778840.63483673, 'RMSE': np.float64(18132.2596670916), 'R2 Score': -0.718306814319934}
+2025-03-04 22:00:44,430 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 'scale'}, Scores: {'MAE': 8558.720326004986, 'MSE': 231021528.97131827, 'RMSE': np.float64(15199.392388227836), 'R2 Score': -0.20739481506634583}
+2025-03-04 22:00:44,692 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 8557.663681148368, 'MSE': 231003515.64047322, 'RMSE': np.float64(15198.799809211028), 'R2 Score': -0.20730067144968278}
+2025-03-04 22:00:48,385 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 300}, Scores: {'MAE': 12624.98582731701, 'MSE': 288334346.0220844, 'RMSE': np.float64(16980.41065528406), 'R2 Score': -0.506930526963276}
+2025-03-04 22:00:51,097 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 300}, Scores: {'MAE': 12631.3359375, 'MSE': 287737705.87642413, 'RMSE': np.float64(16962.833073411533), 'R2 Score': -0.5038122884963319}
+2025-03-04 22:00:51,238 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 9060.650559413805, 'MSE': 243629551.47348607, 'RMSE': np.float64(15608.637079305998), 'R2 Score': -0.27328850499706725}
+2025-03-04 22:00:58,001 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 12621.366448532952, 'MSE': 296728731.772344, 'RMSE': np.float64(17225.815852154694), 'R2 Score': -0.5508023594962022}
+2025-03-04 22:02:00,645 - INFO - ====== WebDriver manager ======
+2025-03-04 22:02:03,423 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 22:02:03,735 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-04 22:02:03,998 - INFO - Driver [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-04 22:10:20,614 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 10803.586805083674, 'MSE': 158483163.85337177, 'RMSE': np.float64(12589.009645455506), 'R2 Score': 0.17171463991294134}
+2025-03-04 22:10:21,089 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}, Scores: {'MAE': 10760.266666666668, 'MSE': 159137796.14666668, 'RMSE': np.float64(12614.983002234552), 'R2 Score': 0.1682933153280911}
+2025-03-04 22:10:27,298 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 'scale'}, Scores: {'MAE': 8367.582815879796, 'MSE': 225027162.08364275, 'RMSE': np.float64(15000.905375464601), 'R2 Score': -0.17606627381734663}
+2025-03-04 22:10:27,686 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 8365.948775333083, 'MSE': 224994134.52148893, 'RMSE': np.float64(14999.804482775398), 'R2 Score': -0.1758936608687771}
+2025-03-04 22:10:33,649 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 100}, Scores: {'MAE': 10672.20945292136, 'MSE': 151632279.12424603, 'RMSE': np.float64(12313.905924776509), 'R2 Score': 0.20751962630271892}
+2025-03-04 22:10:42,411 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 300}, Scores: {'MAE': 10698.84765625, 'MSE': 155538345.11839804, 'RMSE': np.float64(12471.5013177403), 'R2 Score': 0.18710523527325074}
+2025-03-04 22:10:42,697 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 9028.398733280412, 'MSE': 242321039.40312073, 'RMSE': np.float64(15566.664363411986), 'R2 Score': -0.26644978872570624}
+2025-03-04 22:10:54,398 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 15, 'n_estimators': 100}, Scores: {'MAE': 10716.88717237854, 'MSE': 158307202.17215243, 'RMSE': np.float64(12582.01900221711), 'R2 Score': 0.17263427377780494}
+2025-03-09 22:02:35,812 - INFO - ====== WebDriver manager ======
+2025-03-09 22:02:39,813 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:02:40,148 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:02:40,337 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:02:40,883 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-09 22:02:40,883 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-09 22:02:40,883 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-09 22:02:41,248 - INFO - Driver downloading response is 200
+2025-03-09 22:02:43,841 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:02:44,619 - INFO - Driver has been saved in cache [C:\Users\Sathya Sree\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-09 22:05:41,753 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 7063.416767372019, 'MSE': 69422598.06278412, 'RMSE': np.float64(8332.022447328387), 'R2 Score': 0.4819217614146035}
+2025-03-09 22:05:43,458 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 2}, Scores: {'MAE': 2723.62962962963, 'MSE': 7733814.6255144095, 'RMSE': np.float64(2780.9736829956537), 'R2 Score': 0.9422850603328199}
+2025-03-09 22:05:50,984 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 500, 'epsilon': 5, 'gamma': 'scale'}, Scores: {'MAE': 8798.608813087294, 'MSE': 119488330.88835041, 'RMSE': np.float64(10931.071808763787), 'R2 Score': 0.1082975036145889}
+2025-03-09 22:05:51,344 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 8798.608813087294, 'MSE': 119488330.88835041, 'RMSE': np.float64(10931.071808763787), 'R2 Score': 0.1082975036145889}
+2025-03-09 22:06:06,226 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7000.834056723877, 'MSE': 49613608.91910341, 'RMSE': np.float64(7043.69284673199), 'R2 Score': 0.6297497956583535}
+2025-03-09 22:06:14,448 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 7548.744791666667, 'MSE': 57801724.041544594, 'RMSE': np.float64(7602.744507185848), 'R2 Score': 0.568644559347083}
+2025-03-09 22:06:14,670 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 100, 'epsilon': 1}, Scores: {'MAE': 9683.121043801337, 'MSE': 137739178.8984333, 'RMSE': np.float64(11736.233590826032), 'R2 Score': -0.027902630831579733}
+2025-03-09 22:06:22,404 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 3860.166940836944, 'MSE': 19076693.399698716, 'RMSE': np.float64(4367.687420099876), 'R2 Score': 0.8576368503867945}
+2025-03-09 22:08:30,973 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:13:11,815 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:15:11,336 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:15:55,102 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:18:41,156 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:18:42,476 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:18:49,089 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 0.1, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:18:49,311 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:18:53,893 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:19:00,805 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:19:01,682 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 0.1, 'epsilon': 0.01}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:19:10,961 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:24,022 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:25,615 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:32,284 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 0.1, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:32,460 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:37,272 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:43,861 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:44,721 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 0.1, 'epsilon': 0.01}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:26:52,450 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:28:14,036 - INFO - Model: Linear Regression, Best Parameters: N/A, Scores: {'MAE': 1.4551915228366852e-11, 'MSE': 2.117582368135751e-22, 'RMSE': np.float64(1.4551915228366852e-11), 'R2 Score': nan}
+2025-03-09 22:28:14,272 - INFO - Model: Decision Tree, Best Parameters: {'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}, Scores: {'MAE': 0.0, 'MSE': 0.0, 'RMSE': np.float64(0.0), 'R2 Score': nan}
+2025-03-09 22:28:14,752 - INFO - Model: Support Vector Regression (Grid Search), Best Parameters: {'C': 0.1, 'epsilon': 0.001, 'gamma': 'scale'}, Scores: {'MAE': 0.0010371022653998807, 'MSE': 1.0755811088975646e-06, 'RMSE': np.float64(0.0010371022653998807), 'R2 Score': nan}
+2025-03-09 22:28:14,838 - INFO - Model: Support Vector Regression (Randomized Search), Best Parameters: N/A, Scores: {'MAE': 0.008175792405381799, 'MSE': 6.68435814558987e-05, 'RMSE': np.float64(0.008175792405381799), 'R2 Score': nan}
+2025-03-09 22:28:16,383 - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.004827638796996325, 'MSE': 2.3306096354264127e-05, 'RMSE': np.float64(0.004827638796996325), 'R2 Score': nan}
+2025-03-09 22:28:18,686 - INFO - Model: XGBoost, Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}, Scores: {'MAE': 0.0078125, 'MSE': 6.103515625e-05, 'RMSE': np.float64(0.0078125), 'R2 Score': nan}
+2025-03-09 22:28:18,807 - INFO - Model: Support Vector Regression, Best Parameters: {'C': 0.1, 'epsilon': 0.01}, Scores: {'MAE': 0.008175792405381799, 'MSE': 6.68435814558987e-05, 'RMSE': np.float64(0.008175792405381799), 'R2 Score': nan}
+2025-03-09 22:28:21,785 - INFO - Model: Random Forest, Best Parameters: {'max_depth': 5, 'n_estimators': 50}, Scores: {'MAE': 0.002673765193321742, 'MSE': 7.149020309018853e-06, 'RMSE': np.float64(0.002673765193321742), 'R2 Score': nan}

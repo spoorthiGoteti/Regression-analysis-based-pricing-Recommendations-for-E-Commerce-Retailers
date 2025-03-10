@@ -1,0 +1,12 @@
+selenium
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+seaborn
+fuzzywuzzy
+python-Levenshtein  # Required for fuzzywuzzy
+webdriver-manager
+plotly
+xgboost
