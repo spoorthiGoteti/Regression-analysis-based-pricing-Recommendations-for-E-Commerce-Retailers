@@ -1,7 +1,57 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import time  # corrected import
+import numpy as np
+
+def display_price_histogram(df):
+    # Convert price column to numerical values
+    df['Price'] = df['Price'].replace({'₹': '', ',': ''}, regex=True).astype(float)
+
+    # Determine dynamic bin size based on price range
+    price_range = df['Price'].max() - df['Price'].min()
+    bin_size = max(5000, price_range // 10)  # At least 5000, but adjusts based on range
+    bins = np.arange(min(df['Price']), max(df['Price']) + bin_size, bin_size)
+    df['Price Range'] = pd.cut(df['Price'], bins, right=False).astype(str)
+
+    # Group products by price range and source
+    grouped = df.groupby(['Price Range', 'Source']).agg(
+        Count=('Price', 'count'),
+        Sample_Product=('Product Title', 'first'),  # Select first product in each bin and source
+        All_Products=('Product Title', lambda x: '<br>'.join(x))  # All products in bin and source
+    ).reset_index()
+
+    # Generate colors for sources
+    unique_sources = grouped['Source'].unique()
+    colors = px.colors.qualitative.Set3[:len(unique_sources)]
+    color_map = {source: colors[i] for i, source in enumerate(unique_sources)}
+
+    # Create interactive histogram
+    fig = px.bar(
+        grouped, 
+        x='Price Range', 
+        y='Count', 
+        color='Source', 
+        text='Count',
+        labels={'Price Range': 'Price (₹)', 'Count': 'Frequency', 'Source': 'Retailer'},
+        title='Histogram of iPhone 16 Prices by Source',
+        hover_data={'Sample_Product': True, 'All_Products': True},
+        color_discrete_map=color_map
+    )
+
+    # Streamlit integration
+    st.header("📊 Price Distribution of iPhone 16 by Source")
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Show details of products in selected bin
+    selected_bin = st.selectbox("Select a Price Range to view all products", grouped['Price Range'].unique())
+    selected_group = grouped[grouped['Price Range'] == selected_bin]
+
+    st.markdown(f"### Products in {selected_bin}")
+    for source in selected_group['Source'].unique():
+        st.markdown(f"#### Source: {source}")
+        source_products = selected_group[selected_group['Source'] == source]['All_Products'].values[0]
+        st.markdown(source_products.replace('<br>', '\n'))
+
 
 # 🛑 Load Data with Dynamic Refresh
 @st.cache_data(ttl=60)  # Refresh data every 60 seconds
@@ -113,28 +163,8 @@ def plot_price_analysis(product=None):
         st.subheader("📋 Filtered Product Data")
         st.dataframe(df_filtered)
 
-        # ⭐ Ratings Analysis
-        # st.subheader("⭐ Average Ratings")
-        # fig_ratings = px.box(df_filtered, x="Product Title", y="Rating", title="Average Ratings by Product Name", color="Product Title")
-        # fig_ratings.update_yaxes(range=[0, 5])
-        # st.plotly_chart(fig_ratings, use_container_width=True)
-
-        # st.subheader("⭐ Rating Distribution")
-        # fig_ratings = px.violin(
-        #     df_filtered, 
-        #     x="Product Title", 
-        #     y="Rating", 
-        #     title="Rating Distribution by Product Name", 
-        #     color="Product Title", 
-        #     box=True,  # Adds a box plot inside the violin
-        #     points="all"  # Shows all individual data points
-        # )
-        # fig_ratings.update_yaxes(range=[0, 5])
-        # st.plotly_chart(fig_ratings, use_container_width=True)
-
+        display_price_histogram(df_filtered)
         
-
-        # 📌 Footer
         st.markdown("Developed with ❤️ using Streamlit and Plotly")
     except Exception as e:
         pass
