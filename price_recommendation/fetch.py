@@ -40,6 +40,10 @@ def fetch_flipkart_products(wd, url, title_xpath, price_xpath, rating_xpath, rat
         prices = wd.find_elements(By.XPATH, price_xpath)
         ratings = wd.find_elements(By.XPATH, rating_xpath)
         ratings_count = wd.find_elements(By.XPATH, ratings_count_xpath)
+        print(ratings_count, "ratings_count", ratings, "ratings", prices, "prices", titles, "titles")
+
+        if len(titles) == 0:
+            return [("Error", "Not Available", f"Error: No products found", "No Data")]
         
         count = 0
         for i in range(len(titles)):
@@ -78,6 +82,9 @@ def fetch_croma_products(wd, url, title_xpath, price_xpath, product_link_xpath, 
         titles = wd.find_elements(By.XPATH, title_xpath)
         prices = wd.find_elements(By.XPATH, price_xpath)
         product_links = wd.find_elements(By.XPATH, product_link_xpath)
+        print(titles, prices, product_links)
+        if len(titles) == 0:
+            return [("Error", "Not Available", f"Error: {str(e)}", "No Data")]
 
         for i in range(min(len(titles), max_results)):
             title = titles[i].text.strip() if titles[i].text else "N/A"
@@ -123,9 +130,10 @@ def handle_popup(wd):
         # Check for browser alerts (JavaScript popups)
         WebDriverWait(wd, 2).until(EC.alert_is_present())
         alert = wd.switch_to.alert
-        print("Alert found! Dismissing...")
+        print("Alert found! Dismissing...", alert.text)
         alert.dismiss()  # or alert.accept()
-    except TimeoutException:
+        return 
+    except (TimeoutException,  NoAlertPresentException, NoSuchElementException):
         pass  # No alert found, continue
 
     # Try closing modal popups
@@ -157,6 +165,9 @@ def fetch_reliance_products(wd, url, title_xpath, price_xpath, product_link_xpat
         titles = wd.find_elements(By.XPATH, title_xpath)
         prices = wd.find_elements(By.XPATH, price_xpath)
         product_links = wd.find_elements(By.XPATH, product_link_xpath)
+
+        if len(titles) == 0:
+            return [("Error", "Not Available", f"Error: No products found", "N/A")]
 
         for i in range(min(len(titles), max_results)):
             title = titles[i].text.strip() if titles[i].text else "N/A"
